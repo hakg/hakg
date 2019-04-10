@@ -1,0 +1,16 @@
+body{
+    background-color: #ecf0f1;
+}
+
+h1{
+    color:#30336b;
+    transition: color .5s ease-in-out;
+}
+
+.form, .greetings{
+    display: none;
+}
+
+.showing {
+    display: block;
+}
