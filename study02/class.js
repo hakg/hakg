@@ -27,6 +27,7 @@ class PeoplePlus extends People{
 //인스턴스 객체생성
 var lee = new People('lee', 10, 20);
 console.log('lee', lee);
-console.log('lee.sum', lee.sum());
+console.log('lee.sum()', lee.sum());
 var kim = new PeoplePlus('kim', 10, 20, 30);
-console.log('kim.avg', kim.avg());
+console.log('kim.sum()', kim.sum());
+console.log('kim.avg()', kim.avg());
